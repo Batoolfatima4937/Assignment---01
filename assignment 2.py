@@ -2,8 +2,7 @@ name=input("Enter student name")
 maths=eval(input("Enter the Student maths num"))
 physics=eval(input("Enter the Student phy num"))
 chemistry=eval(input("Enter the Student chem num "))
-english=eval(input("Enter the Student eng num "))
-Total_marks=maths+physics+chemistry+english
+Total_marks=maths+physics+chemistry
 percentage=(Total_marks/300)*100
 print(percentage)
 if(percentage<=100 and percentage>=90):
