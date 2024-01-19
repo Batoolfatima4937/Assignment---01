@@ -1,0 +1,9 @@
+'''Nested Loop Logic:
+Create a Python program using nested loops to print a multiplication table up to 5x5.'''
+
+b=[1,2,3,4,5]
+a=[5]
+for x in b:
+    for y in a:
+        print(x,'X',y,'=',x*y)
+    

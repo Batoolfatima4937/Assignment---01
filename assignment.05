@@ -1,0 +1,10 @@
+'''Lists:
+List Basics:
+Write code to initialize an empty list, then append the numbers 1 to 5 to the list. Print the final list.'''
+ 
+empty_list=[]
+#for i in range(6):
+ #   empty_list.append(i)
+#     print(empty_list)
+empty_list=[i for i in range(6)]
+print(empty_list)

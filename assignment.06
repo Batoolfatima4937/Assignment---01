@@ -1,0 +1,11 @@
+'''List Manipulation:
+Write a Python function that removes duplicates from a given list while preserving
+the order of elements. Test the function with a sample list.'''
+
+'''samplelist = ["2", "6", "9", "6", "8","9","3"]
+samplelist = list(dict.fromkeys(samplelist))
+print(samplelist)'''
+
+name_list=['ayesha','amna','ayesha','batool','amna','elsa']
+name_list=list(dict.fromkeys(name_list))
+print(name_list)
